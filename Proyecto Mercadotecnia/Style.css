@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+.titulo {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.titulo h1 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('hero.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  background-color: #e0d4b7;
+}
+
+.hero h2 {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.contenido h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.contenido ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.galeria {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.galeria-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.galeria-imagenes img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.video-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.video-container {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.empresa {
+  background-color: #fdfdfd;
+  border-left: 6px solid #c79c60;
+  padding: 40px 20px;
+}
+
+.empresa h3 {
+  color: #4d3c1e;
+  margin-top: 30px;
+}
+
+.empresa p, .empresa ul li {
+  line-height: 1.6;
+  font-size: 1em;
+  color: #333;
+}
+
+.empresa ul {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.empresa ul li {
+  margin-bottom: 10px;
+}
+
+/* Ajuste al logo con fondo blanco */
+.logo {
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
